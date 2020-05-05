@@ -16,22 +16,22 @@
         ?>
         <div>
             <div class="form-group">
-                <label for="Inputnom">Nom</label>
+                <!-- <label for="Inputnom">Nom</label> -->
                 <input type="text" class="form-control" id="Inputnom" placeholder="Nom" name="addNom" required="required">
             </div>
             <div class="form-group">
-                <label for="InputPrenom">Prénom</label>
+                <!-- <label for="InputPrenom">Prénom</label> -->
                 <input type="text" class="form-control" id="InputPrenom" placeholder="Prenom" name="addPrenom" required="required">
             </div>
             <div class="form-group">
                 <div class="form-group">
-                    <label for="InputEmail">Email</label>
+                    <!-- <label for="InputEmail">Email</label> -->
                     <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Votre e-mail" name="addEmail" required="required">
                 </div>
             </div>
             <div class="form-group">
                 <div class="form-group">
-                    <label for="InputPassword">Mot de passe</label>
+                    <!-- <label for="InputPassword">Mot de passe</label> -->
                     <input type="password" class="form-control" id="InputPassword" placeholder="Mot de passe" name="addMdp" required="required">
                 </div>
             </div>

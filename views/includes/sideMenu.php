@@ -41,7 +41,7 @@
           </a>
         </li>
         <li class="nav-item row mb-4">
-          <a class="nav-link col-4 offset-1 bg-danger rounded p-3" href="#">
+          <a class="nav-link col-4 offset-1 bg-danger rounded p-3" href="index.php">
             <i class="fas fa-chart-bar fb mb-2"></i><br>Stock</a>
           <a class="nav-link col-4 offset-1 bg-secondary rounded p-3" href="#">
             <i class="far fa-clock fb mb-2"></i><br>Journal

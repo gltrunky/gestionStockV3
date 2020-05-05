@@ -14,9 +14,9 @@ define('MODE_TEST', 1);
 // #############################################################################
 // LOCAL CONFIGURATION #########################################################
 // #############################################################################
-if ($_SERVER['SERVER_NAME'] == "gestock" or $_SERVER['REMOTE_ADDR'] == "::1") {
+if ($_SERVER['SERVER_NAME'] == "projetgestionstock" or $_SERVER['REMOTE_ADDR'] == "::1") {
     // Conf email support technique
-    define('EMAIL_SUPPORT_TECH', 'gbosom.31@gmail.com');
+    define('EMAIL_SUPPORT_TECH', 'almartin86@yahoo.fr');
     // Conf nom de domaine - Sert pour les communications
     define('WWW_NDD_GENERAL', 'gestock');
     // Conf Database
@@ -28,9 +28,9 @@ if ($_SERVER['SERVER_NAME'] == "gestock" or $_SERVER['REMOTE_ADDR'] == "::1") {
     define('DATABASE_NAME_GESTION_STOCK_DEV', 'gestion_stock'); // Bdd locale
     // define('DATABASE_NAME_TOTO02', 'toto2'); // Bdd copie de prod
     // Definition du path en local de la racine du projet
-    define('PATH_MACHINE', 'E:/OrtFormation/projetOrt/ORT_GeStock/');
+    define('PATH_MACHINE', 'A:/Trunky/conceptionWeb/CDA/projetGestionStock/projetStockV3/');
     // Definition du path du host principal
-    define('HTTP_PATH_HOST_PRINCIPAL', 'http://gestock/');
+    define('HTTP_PATH_HOST_PRINCIPAL', 'http://projetstockv3/');
     // Definition du path des views
     define('HTTP_PATH_VIEWS', 'views/');
     // Var de sécurité pour l'authentification
